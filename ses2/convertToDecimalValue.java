@@ -22,5 +22,6 @@ public class convertToDecimalValue {
         String number = sc.next();
         int decimalValue = convertBase17ToDecimal(number);
         System.out.println(decimalValue);
+        sc.close();
     }
 }
