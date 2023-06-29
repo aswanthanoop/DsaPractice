@@ -10,7 +10,7 @@ public class convertToDecimalValue {
         for (int i = number.length() - 1; i >= 0; i--) {
             char c = number.charAt(i);
             int digitValue = Character.isDigit(c) ? Character.getNumericValue(c) : c - 'A' + 10;
-            decimal += digitValue * Math.pow(17, power);
+            decimal+= digitValue * Math.pow(17, power);
             power++;
         }
 
