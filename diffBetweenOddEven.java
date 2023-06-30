@@ -1,4 +1,4 @@
-package ses2;
+// package ses2;
 import java.util.*;
 
 public class diffBetweenOddEven {
