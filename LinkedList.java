@@ -20,7 +20,7 @@ public class LinkedList{
         }
         else {
             Node last = list.head;
-            While (last.next != null){
+            while (last.next != null){
                 last = last.next;
             }
             last.next = new_node;
@@ -36,8 +36,9 @@ public class LinkedList{
 
     
         while (currNode != null){
-            System.out.print(currNode.data)
+            System.out.print(currNode.data);
         }
+    }
 
 
 
