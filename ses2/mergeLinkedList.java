@@ -1,6 +1,6 @@
 package ses2;
 
-import java.util.LinkedList;
+// import java.util.LinkedList;
 
 public class mergeLinkedList {
     
@@ -111,16 +111,20 @@ public class mergeLinkedList {
         public static void main(String[] args) {
             Linkedlist list1 = new Linkedlist() ;
             Linkedlist list2 = new Linkedlist();
+            Linkedlist list3 = new Linkedlist();
             list1.insertAtBeginning(1);
             list1.insertAtBeginning(1);
             list1.insertAtEnd(3);
             list1.display();
             list2.insertAtBeginning(6);
             list2.insertAtEnd(7);
-            list2.insertAtEnd(8);
+            list2.insertAtEnd(89);
             list2.insertAtEnd(9);
             list2.insertAtEnd(10);
             list2.display();
+            list3 = Linkedlist.merge(list1,list2);
+            list3.display();
+           
       
         }
     }
