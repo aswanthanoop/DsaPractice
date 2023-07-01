@@ -1,4 +1,4 @@
-package ses2;
+// package ses2;
 
 public class magicNum {
     public static boolean magic(int num){
