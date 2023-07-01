@@ -1,12 +1,14 @@
-public class automorphic {
+public class Automorphic {
     int n;
-    int sqr = n*n;
 
-    if(sqr%(10**void len(str(n)))==n){
-        return true;
-    else{
-        return false;
+    public boolean isAutomorphic() {
+        int sqr = n * n;
+        int length = String.valueOf(n).length();
+
+        if (sqr % Math.pow(10, length) == n) {
+            return true;
+        } else {
+            return false;
         }
     }
-    
 }
