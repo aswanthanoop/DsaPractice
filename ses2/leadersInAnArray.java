@@ -3,7 +3,7 @@ import java.util.*;
 
 public class leadersInAnArray {
     public static ArrayList<Integer> leader(int[] nums){
-        ArrayList<Integer> list = new ArrayList();
+        ArrayList<Integer> list = new ArrayList<>();
         int n = nums.length;
         int max = nums[n-1];
         list.add(max);
